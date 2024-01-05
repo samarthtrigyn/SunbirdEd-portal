@@ -19,7 +19,7 @@ then
     cdnUrl=$6
     echo "cdnUrl: " $cdnUrl
 fi
-
+# comments added by samarth
 commit_hash=$(git rev-parse --short HEAD)
 nvm install $NODE_VERSION # same is used in client and server
 
